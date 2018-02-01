@@ -1,78 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-</html>
-<html>
+
   <head>
-    <meta charset="UTF-8">
-    <title>Nathan Blase</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Creative - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
   </head>
-  <body>
-    <div class = "container-fluid">
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #219B9D;">
-          <a class="navbar-brand" href="https://nblase22.github.io/">Nathan Blase</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Projects
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="./links/mission_to_mars.html">Mission to Mars</a>
-                  <a class="dropdown-item" href="./links/cityslip.html">CitySlip</a>
-                  <a class="dropdown-item" href="./links/weatherpy.html">Weatherpy</a>
-                  <a class="dropdown-item" href="./links/surfsup.html">Surfs Up!</a>
-                  <a class="dropdown-item" href="./links/distinguishingsentiments.html">Distinguishing Sentiments</a>
-                  
-                </div>
-              </li>
-              <li class="nav=item">
-                <a class="nav-link" href="./links/contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.linkedin.com/in/nathan-blase">LinkedIn</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://github.com/nblase22">Github</a>
-              </li>
-              
-            </ul>
-          </div>
-        </nav>
-        
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Nathan Blase</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
         <div class="row">
-            <div class="col-sm-12 col-md-4">
-              <div class="box">
-                <h1 class="summary">Welcome</h1>
-                <hr>
-                <p>
-                  Welcome to the portfolio of Nathan Blase. Throughout the site are links to projects including brief summaries and links to Github repositories.
-                </p>
-                <p>
-                  Please click the images on this page or use the dropdown menu to start exploring!
-                </p>
-              </div>
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>Nathan Blase</strong>
+            </h1>
+            <hr>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-faded mb-5">Research Analyst, Data Scientist, Book Lover</p>
+            <p><img src="./img/prelfie.jpg" height="240" width="180"></p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">About Me</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">Detail oriented, voracious learner who excels at adapting to new situations and providing timely results and analysis. I am currently a research analyst at Institutional Shareholder services where my work has involved analyzing financial 
+              data and creating data focused solutions to both clients and the company.</p>
+            <p class="text-faded mb-4">I am interested in analytics and big data as a way to transform our understanding of the world.</p>
+            <h2 class="section-heading text-white">Education</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">George Washington University - Data Analytics Program</p>
+            <p class="text-faded mb-4">University of New Hampshire School of Law - J.D.</p>
+            <p class="text-faded mb-4">University of Michigan - B.S.E. Aerospace Engineering</p>
+
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#skills">Skills</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Skills</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-book text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Languages (Front End Visualization)</h3>
+              <p class="text-muted mb-0">HTML, CSS, Bootstrap, Dashboarding, D3.js, Javascript Charting, Handlebars, Git</p>
             </div>
-            <div class="col-sm-12 col-md-8">
-              <div class="box">
-                <h1 class="summary">Projects</h1>
-                <hr>
-                <a href="./links/mission_to_mars.html"><img src="./images/mtm.png" alt="Mission to Mars" height="150" width="150"></a>
-                <a href="./links/cityslip.html"><img src="./images/cityslip1.png" alt="CitySlip" height="150" width="150"></a>
-                <a href="./links/weatherpy.html"><img src="./images/weatherpy1.png" alt="weatherpy" height="150" width="150"></a>
-                <a href="./links/surfsup.html"><img src="./images/surfsup5.png" alt="Surfs Up!" height="150" width="150"></a>
-                <a href="./links/distinguishingsentiments.html"><img src="./images/dissent1.png" alt="distinguishing sentiments" height="150" width="150"></a>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-server text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Databases</h3>
+              <p class="text-muted mb-0">MySQL, MongoDB</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-gear text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Programming Technologies</h3>
+              <p class="text-muted mb-0">Python 3, Pandas, Matplotlib, API Interations, Social Media Mining, NumPy</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-file-excel-o text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Frameworks/Tools</h3>
+              <p class="text-muted mb-0">Excel VBA, Excel (Modeling and Forcasting)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-0" id="portfolio">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/cityslip3.png">
+              <img class="img-fluid" src="img/portfolio/fullsize/cityslip3.png" alt="city slip points of interest" height="400" width="400">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Python/APIs
+                  </div>
+                  <div class="project-name">
+                    CitySlip
+                  </div>
+                </div>
               </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/dissent1.png">
+              <img class="img-fluid" src="img/portfolio/fullsize/dissent1.png" alt="analysis of media outlets" height="800" width="800">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Python/APIs
+                  </div>
+                  <div class="project-name">
+                    News Mood
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/dissent4.png">
+              <img class="img-fluid" src="img/portfolio/fullsize/dissent4.png" alt="Analysis of specific twitter user" height="525" width="525">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Python/APIs/Bot
+                  </div>
+                  <div class="project-name">
+                    Plot Bot
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/mtm.png">
+              <img class="img-fluid" src="img/portfolio/fullsize/mtm.png" alt="mars hemispheres" height="400" width="400">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Web Scraping/MongoDB/Flask
+                  </div>
+                  <div class="project-name">
+                    Mission to Mars
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/weatherpy1.png">
+              <img class="img-fluid" src="img/portfolio/fullsize/weatherpy1.png" alt="weather vs. latitude" height="800" width="800">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Python/Matplotlib/APIs
+                  </div>
+                  <div class="project-name">
+                    Weatherpy
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/surfsup1.png">
+              <img class="img-fluid" src="img/portfolio/fullsize/surfsup1.png" alt="weather in Hawaii over a date range" height="800" width="800">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Python/Pandas/Matplotlib
+                  </div>
+                  <div class="project-name">
+                    SurfsUp!
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-dark text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">My Resume</h2>
+        <a class="btn btn-light btn-xl sr-button" href="./img/Nathan_Blase_Resume.pdf" download>Download Now!</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <hr class="my-4">
+            <p class="mb-5">Have any questions? Give me a call or send me an email and I'll get back to you as soon as possible!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-linkedin-square fa-3x mb-3 sr-contact"></i>
+            <p><a href="https://www.linkedin.com/in/nathan-blase">LinkedIn</a></p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+            <p>
+              <a href="mailto:nblase22@gmail.com">nblase22@gmail.com</a>
+            </p>
+          </div>
+          <div class="col-lg-4 ml-auto text-center">
+              <i class="fa fa-github-square fa-3x mb-3 sr-contact"></i>
+              <p><a href="https://github.com/nblase22">GitHub</a></p>
             </div>
         </div>
-    </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
   </body>
+
 </html>
